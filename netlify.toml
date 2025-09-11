@@ -1,0 +1,50 @@
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/home"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms-of-service"
+  to = "/terms-of-service.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy-policy"
+  to = "/privacy-policy.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/index.html#contact"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/index.html#services"
+  status = 200
+
+[[redirects]]
+  from = "/portfolio"
+  to = "/index.html#portfolio"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/index.html#about"
+  status = 200
+
+[[redirects]]
+  from = "/about-us"
+  to = "/index.html#about"
+  status = 200
+
+# Catch-all: redirect all other paths to custom 404 page
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
